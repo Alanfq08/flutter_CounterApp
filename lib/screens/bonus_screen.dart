@@ -18,7 +18,7 @@ class _BonusScreenState extends State<BonusScreen> {
       body: Center(
           child: AnimatedFlipCounter(
             duration: Duration(milliseconds: 500),
-            prefix: 'Level: ',
+            prefix: 'Contador: ',
             value: counter, // pass in a value like 2014
             textStyle: TextStyle(fontSize: 42),
           )),
